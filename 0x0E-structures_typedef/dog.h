@@ -3,24 +3,20 @@
 
 
 	/**
-	 * struct dog - a dog's basic info
-	 * @name: First member
-	 * @age: Second member
-	 * @owner: Third member
+	 * struct dog - struct dog
+	 * @name: dog's name
+	 * @age: dog's age
+	 * @owner: dog's owner
 	 *
-	 * Description: Longer description
+	 * Description: struct dog  description
 	 */
-	struct dog
-	{
+struct dog
+{
 		char *name;
 		float age;
 		char *owner;
-	};
+};
 
-
-	/**
-	 * dog_t - typedef for struct dog
-	 */
 	typedef struct dog dog_t;
 
 
@@ -32,4 +28,4 @@
 	int _strlen(char *s);
 
 
-	#endif
+	#endif /*STRTYP*/
